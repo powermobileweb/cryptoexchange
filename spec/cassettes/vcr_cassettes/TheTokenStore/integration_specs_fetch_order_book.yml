@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://v1-1.api.token.store/orderbook/EVN_ETH
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - v1-1.api.token.store
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0
+      Date:
+      - Tue, 24 Jul 2018 04:09:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2808'
+      Connection:
+      - close
+      Vary:
+      - Origin
+      Etag:
+      - '"af8-ifZzib8xSPjFyy/c/KrRdWovu9k"'
+    body:
+      encoding: UTF-8
+      string: '{"asks":[{"price":0.00027,"volume":0.2099999979},{"price":0.00026,"volume":0.1674818366},{"price":0.00026,"volume":0.079999686},{"price":0.000255,"volume":0.19125},{"price":0.00025,"volume":0.2375},{"price":0.00025,"volume":0.25},{"price":0.00024,"volume":0.12},{"price":0.000230001000029819,"volume":1.963},{"price":0.00023,"volume":0.099999998},{"price":0.00023,"volume":0.118999999},{"price":0.000210000000014,"volume":2.999999999},{"price":0.0002,"volume":0.7502},{"price":0.000161,"volume":0.020125},{"price":0.00016,"volume":0.02},{"price":0.000156,"volume":0.078},{"price":0.000151,"volume":0.02265},{"price":0.00015,"volume":0.69585},{"price":0.00011,"volume":0.0495},{"price":0.000105,"volume":0.105},{"price":0.0001,"volume":0.5},{"price":0.0001,"volume":1.2},{"price":0.00005,"volume":1},{"price":0.00005,"volume":0.5},{"price":0.00003,"volume":1.2},{"price":0.00002603,"volume":0.049457},{"price":0.000025,"volume":0.5},{"price":0.0000115,"volume":0.0115},{"price":0.00001,"volume":1},{"price":0.0000011,"volume":0.011},{"price":1e-7,"volume":0.012},{"price":7e-8,"volume":0.01050007},{"price":4.29999999851852e-8,"volume":0.01161003818},{"price":4.1000000012e-8,"volume":0.01025000029},{"price":1e-8,"volume":0.012},{"price":1e-9,"volume":0.01},{"price":7.1e-11,"volume":0.01065}],"bids":[{"price":0.00031,"volume":0.08622991},{"price":0.0003199,"volume":0.3193118367301},{"price":0.000336,"volume":0.336},{"price":0.0003369,"volume":0.3369},{"price":0.000337,"volume":0.337},{"price":0.000339,"volume":0.339},{"price":0.00039999,"volume":1.90315242},{"price":0.0004,"volume":0.04},{"price":0.00043,"volume":0.43},{"price":0.00065,"volume":0.1404},{"price":0.000699,"volume":0.699},{"price":0.0007,"volume":1.75},{"price":0.000789,"volume":0.1578},{"price":0.00131,"volume":1.048},{"price":0.0016,"volume":1.28},{"price":0.003,"volume":1.5},{"price":0.0039,"volume":0.468},{"price":0.194989998994866,"volume":651.8396703},{"price":0.194999999,"volume":19.4999999},{"price":0.2,"volume":0.2},{"price":0.3,"volume":0.3},{"price":0.4,"volume":0.4},{"price":0.5,"volume":0.5},{"price":0.6,"volume":0.6},{"price":0.7,"volume":0.7},{"price":0.8,"volume":0.8},{"price":0.87,"volume":84.39},{"price":0.9,"volume":0.9},{"price":1,"volume":1},{"price":1,"volume":1},{"price":1.0007,"volume":9.0063},{"price":1.9,"volume":1.9},{"price":10,"volume":100},{"price":10,"volume":10},{"price":10,"volume":10},{"price":100,"volume":100},{"price":100,"volume":100},{"price":100,"volume":1},{"price":100,"volume":1},{"price":1000,"volume":1000},{"price":1000,"volume":10},{"price":1000,"volume":1000},{"price":10000,"volume":100},{"price":10000,"volume":10000},{"price":10000,"volume":5000},{"price":10000,"volume":100},{"price":10000,"volume":10000},{"price":10000,"volume":1000},{"price":100000,"volume":100000}]}'
+    http_version: 
+  recorded_at: Tue, 24 Jul 2018 04:11:07 GMT
+recorded_with: VCR 4.0.0

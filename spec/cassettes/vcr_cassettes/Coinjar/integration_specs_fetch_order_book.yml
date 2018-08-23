@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://data.exchange.coinjar.com/products/BTCAUD/book?level=3
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - data.exchange.coinjar.com
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '865'
+      Connection:
+      - close
+      Date:
+      - Mon, 28 May 2018 01:19:22 GMT
+      Server:
+      - Cowboy
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f14e2lr0se4jj6c95b1hgasmfrmb3cb3
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ''
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4b6a36ce887a1dca580b142a77ee06df.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 3afDtruukGEbn0IcP3ji0TZ8-XfPdWTBjLBtlh0T5qRg4GroFwwtfg==
+    body:
+      encoding: UTF-8
+      string: '{"bids":[["9721.00000000","2.50000000"],["9642.00000000","5.00000000"],["9580.00000000","0.01000000"],["9500.00000000","1.03000000"],["9465.00000000","10.00000000"],["9415.00000000","0.05000000"],["9402.00000000","0.10000000"],["9400.00000000","0.21000000"],["9300.00000000","0.21000000"],["9210.00000000","0.05000000"],["9200.00000000","0.22000000"],["9100.00000000","0.27000000"],["9000.00000000","0.26000000"],["8650.00000000","0.05000000"],["8300.00000000","0.25000000"],["8000.00000000","0.20000000"]],"asks":[["9758.00000000","2.50000000"],["9797.00000000","5.00000000"],["9846.00000000","10.00000000"],["9850.00000000","0.60000000"],["10980.00000000","0.00100000"],["11170.00000000","0.20000000"],["11190.00000000","0.01000000"],["11300.00000000","0.00400000"],["11490.00000000","0.00300000"],["11950.00000000","0.00100000"],["13000.00000000","0.01000000"]]}'
+    http_version: 
+  recorded_at: Mon, 28 May 2018 01:19:22 GMT
+recorded_with: VCR 4.0.0

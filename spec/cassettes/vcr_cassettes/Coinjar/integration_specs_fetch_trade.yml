@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://data.exchange.coinjar.com/products/BTCAUD/trades
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - data.exchange.coinjar.com
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1357'
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 28 May 2018 01:19:22 GMT
+      Server:
+      - Cowboy
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - nhvvvb95n5jnvbf2ckthj1fi10ume18q
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ''
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4b6a36ce887a1dca580b142a77ee06df.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - jg1K8wD8UvjoZwRry7Jj08bkYQ91wkGQryIY16EoOV1q4drAm1xt5w==
+    body:
+      encoding: UTF-8
+      string: '[{"value":"2439.25","timestamp":"2018-05-28T01:16:55.380926Z","tid":2455,"taker_side":"buy","size":"0.25000000","price":"9757.00000000"},{"value":"7973.68","timestamp":"2018-05-28T01:14:32.010001Z","tid":2453,"taker_side":"sell","size":"0.82000000","price":"9724.00000000"},{"value":"3889.20","timestamp":"2018-05-28T01:13:17.589494Z","tid":2452,"taker_side":"sell","size":"0.40000000","price":"9723.00000000"},{"value":"194.48","timestamp":"2018-05-28T01:13:09.373125Z","tid":2451,"taker_side":"sell","size":"0.02000000","price":"9724.00000000"},{"value":"778.08","timestamp":"2018-05-28T01:12:38.040577Z","tid":2450,"taker_side":"sell","size":"0.08000000","price":"9726.00000000"},{"value":"975.90","timestamp":"2018-05-28T01:12:20.631379Z","tid":2449,"taker_side":"buy","size":"0.10000000","price":"9759.00000000"},{"value":"195.40","timestamp":"2018-05-28T01:10:03.136648Z","tid":2447,"taker_side":"buy","size":"0.02000000","price":"9770.00000000"},{"value":"98.04","timestamp":"2018-05-28T01:07:40.848491Z","tid":2446,"taker_side":"buy","size":"0.01000000","price":"9804.00000000"},{"value":"97.25","timestamp":"2018-05-28T01:07:20.802708Z","tid":2445,"taker_side":"sell","size":"0.01000000","price":"9725.00000000"},{"value":"97.27","timestamp":"2018-05-28T01:07:10.150939Z","tid":2444,"taker_side":"sell","size":"0.01000000","price":"9727.00000000"}]'
+    http_version: 
+  recorded_at: Mon, 28 May 2018 01:19:22 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.huobi.pro/market/detail/merged?symbol=ethbtc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.huobi.pro
+      User-Agent:
+      - http.rb/1.0.4
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 07 Dec 2017 00:30:12 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=def3123a1577908f3bee2bb51dd1365aa1512606611; expires=Fri, 07-Dec-18
+        00:30:11 GMT; path=/; domain=.huobi.pro; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Request-Id:
+      - a6adf27f61b356e9bcf3305ac6e0a3cc
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3c935ffcbd472d1d-KUL
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"ok","ch":"market.ethbtc.detail.merged","ts":1512606612236,"tick":{"amount":31137.8488,"open":0.038456,"close":0.029299,"high":0.038594,"id":508383225,"count":44336,"low":0.029128,"version":508383225,"ask":[0.029299,2.9566],"vol":1091.8450453927,"bid":[0.029179,5.1036]}}'
+    http_version: 
+  recorded_at: Thu, 07 Dec 2017 00:30:12 GMT
+recorded_with: VCR 3.0.3

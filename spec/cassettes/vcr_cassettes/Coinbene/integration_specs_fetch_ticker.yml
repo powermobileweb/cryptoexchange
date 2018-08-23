@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.coinbene.com/v1/market/ticker?symbol=ETHBTC
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.coinbene.com
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 24 May 2018 06:49:27 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - acw_tc=AQAAAAEhQAGmWAYAQwNkdoXhQz3j2LLT; Path=/; HttpOnly
+      X-Application-Context:
+      - exchange-openapi:prod:8601
+    body:
+      encoding: UTF-8
+      string: '{"ticker":[{"symbol":"ETHBTC","24hrHigh":"0.086052","last":"0.077999","24hrVol":"1401.1392","ask":"0.078300","24hrLow":"0.0762","bid":"0.077999","24hrAmt":"110.9869977484"}],"status":"ok","timestamp":1527115767421}'
+    http_version: 
+  recorded_at: Thu, 24 May 2018 06:49:27 GMT
+recorded_with: VCR 4.0.0

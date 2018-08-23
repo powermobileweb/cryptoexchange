@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://v1-1.api.token.store/ticker
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - v1-1.api.token.store
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0
+      Date:
+      - Tue, 24 Jul 2018 04:09:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4159'
+      Connection:
+      - close
+      Vary:
+      - Origin
+      Etag:
+      - '"103f-gmLbL/Uk8/0Or5cjmHnhhMkHi78"'
+    body:
+      encoding: UTF-8
+      string: '{"ETH_ROCK2":{"symbol":"ROCK2","tokenAddr":"0xc16b542ff490e01fcc0dc58a60e1efdc3e357ca6","quoteVolume":10620,"baseVolume":7.8803718448,"ask":0.00071,"bid":0.00146,"last":0.000755,"percentChange":-48.6090329102447},"ETH_EMPR":{"symbol":"EMPR","tokenAddr":"0xe7d7b37e72510309db27c460378f957b1b04bd5d","quoteVolume":60336.2837483326,"baseVolume":263.179456125403,"ask":0.00315,"bid":0.004454,"last":0.004454,"percentChange":16.5079539660208},"ETH_A":{"symbol":"A","tokenAddr":"0xffc63b9146967a1ba33066fb057ee3722221acf0","quoteVolume":5216.5770399813,"baseVolume":1.104,"ask":0.00005,"bid":0.000329,"last":0.000329,"percentChange":151340.329218107},"ETH_INV":{"symbol":"INV","tokenAddr":"0xece83617db208ad255ad4f45daf81e25137535bb","quoteVolume":10,"baseVolume":0.005,"ask":0.0005,"bid":0.0005,"last":0.0005,"percentChange":0},"ETH_NPXS":{"symbol":"NPXS","tokenAddr":"0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3","quoteVolume":53376.4997809007,"baseVolume":1.0206596103,"ask":0.0000186,"bid":0.0000199999998012882,"last":0.0000199989999989321,"percentChange":6239.50068509317},"ETH_LIZA":{"symbol":"LIZA","tokenAddr":"0x3b7712b395bc5f7f7fb6976ea4827377e77adab6","quoteVolume":96389.1578404762,"baseVolume":2.02417231465,"ask":0.000021,"bid":0.000021,"last":0.000021,"percentChange":-41.7227452045428},"ETH_EOSC":{"symbol":"EOSC","tokenAddr":"0xce3ad07c9c7a5f89d39eb1449913d3feecabcf8d","quoteVolume":1097,"baseVolume":0.031925,"ask":0.000025,"bid":0.00007,"last":0.00007,"percentChange":0},"ETH_PLCN":{"symbol":"PLCN","tokenAddr":"0xcfc2437916a6df165235272dbfb116687bb1a00b","quoteVolume":224289.473684211,"baseVolume":0.03285,"ask":1e-7,"bid":1.9e-7,"last":1.9e-7,"percentChange":-97.9568122987833},"ETH_ITL":{"symbol":"ITL","tokenAddr":"0x122a86b5dff2d085afb49600b4cd7375d0d94a5f","quoteVolume":224400,"baseVolume":0.0320892,"ask":1.43e-7,"bid":1.43e-7,"last":1.43e-7,"percentChange":0},"ETH_EVN":{"symbol":"EVN","tokenAddr":"0xd780ae2bf04cd96e577d3d014762f831d97129d0","quoteVolume":3696.02758477618,"baseVolume":1.0318688474799,"ask":0.00026,"bid":0.0003199,"last":0.0003199,"percentChange":164.688688256689},"ETH_FREE":{"symbol":"FREE","tokenAddr":"0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd","quoteVolume":20968500,"baseVolume":0.0125811,"ask":6e-10,"bid":6e-10,"last":6e-10,"percentChange":-87.6667369215612},"ETH_BAAP":{"symbol":"BAAP","tokenAddr":"0x5f7d95329e806befa024982e91b7127393737249","quoteVolume":29.9180327868852,"baseVolume":0.0876,"ask":0.002928,"bid":0.002928,"last":0.002928,"percentChange":0},"ETH_RHOC":{"symbol":"RHOC","tokenAddr":"0x168296bb09e24a88805cb9c33356536b980d3fc5","quoteVolume":17,"baseVolume":0.2769807,"ask":0.00365,"bid":0.019,"last":0.019,"percentChange":0},"ETH_MOR":{"symbol":"MOR","tokenAddr":"0x8e81332db0d491005d26c9f889dc7eadd7ca18f0","quoteVolume":650.692,"baseVolume":5.1086588,"ask":0.0065,"bid":0.0089,"last":0.0065,"percentChange":0},"ETH_PAYX":{"symbol":"PAYX","tokenAddr":"0x62a56a4a2ef4d355d34d10fbf837e747504d38d4","quoteVolume":4850,"baseVolume":15.98075,"ask":0.003295,"bid":0.003295,"last":0.003295,"percentChange":-1.95858895705522},"ETH_EC":{"symbol":"EC","tokenAddr":"0x40caa728bb4bafa56f38a58623a12fbe6c90209d","quoteVolume":4733728,"baseVolume":0.41746153846,"ask":3.90000066755011e-9,"bid":0.399,"last":3.90000066755011e-9,"percentChange":-87.1501187526606},"ETH_INO":{"symbol":"INO","tokenAddr":"0xc9859fccc876e6b4b3c749c5d29ea04f48acb74f","quoteVolume":200,"baseVolume":0.24,"ask":0.0012,"bid":0.0012,"last":0.0012,"percentChange":-70.7317073170732},"ETH_AUSC":{"symbol":"AUSC","tokenAddr":"0x59f1b6d0f5105cf025a3de58858a9363f4fef084","quoteVolume":302.86933001956,"baseVolume":0.1164899966,"ask":0.00038,"bid":0.000499999990020181,"last":0.000499999990020181,"percentChange":150.51612172043},"ETH_MNL":{"symbol":"MNL","tokenAddr":"0x0d62dc6cd8c81dca8caadccf01ffe7c1f31d9402","quoteVolume":600,"baseVolume":0.234,"ask":0.00039,"bid":0.00039,"last":0.00039,"percentChange":-45.9584295612009},"ETH_ERC
+        OLD":{"symbol":"ERC OLD","tokenAddr":"0x26d5bd2dfeda983ecd6c39899e69dae6431dffbb","quoteVolume":50,"baseVolume":0.000007,"ask":1.4e-7,"bid":1.4e-7,"last":1.4e-7,"percentChange":-99.9953020134228}}'
+    http_version: 
+  recorded_at: Tue, 24 Jul 2018 04:11:06 GMT
+recorded_with: VCR 4.0.0

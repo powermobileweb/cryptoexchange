@@ -1,0 +1,113 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://btc-alpha.com/api/charts/LHCoin_ETH/D/chart?limit=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - btc-alpha.com
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Fri, 25 May 2018 08:59:45 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=da1181f4cb5433407bde0f8b3c68543811527238784; expires=Sat, 25-May-19
+        08:59:44 GMT; path=/; domain=.btc-alpha.com; HttpOnly; Secure
+      Location:
+      - "/api/charts/LHCoin_ETH/D/chart/?limit=1"
+      Vary:
+      - Accept-Language
+      Content-Language:
+      - en
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4206cec5891f17e6-SIN
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 25 May 2018 08:59:45 GMT
+- request:
+    method: get
+    uri: https://btc-alpha.com/api/charts/LHCoin_ETH/D/chart/?limit=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/3.0.0
+      Host:
+      - btc-alpha.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 25 May 2018 08:59:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d44f6e5509cf8c01548d077f7f5eee5481527238786; expires=Sat, 25-May-19
+        08:59:46 GMT; path=/; domain=.btc-alpha.com; HttpOnly; Secure
+      Vary:
+      - Accept, Accept-Language
+      Allow:
+      - GET, HEAD, OPTIONS
+      Etag:
+      - '"e31d641d9ca38442dc38d04cc0ede63c"'
+      Content-Language:
+      - en
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4206ceccd8b5aa32-SIN
+    body:
+      encoding: UTF-8
+      string: '[{"time":1526342400,"open":0.00007,"close":0.00007,"low":0.00007,"high":0.00007,"volume":408.55885714}]'
+    http_version: 
+  recorded_at: Fri, 25 May 2018 08:59:47 GMT
+recorded_with: VCR 4.0.0

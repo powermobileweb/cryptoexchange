@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://data.exchange.coinjar.com/products/BTCAUD/ticker
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - data.exchange.coinjar.com
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '269'
+      Connection:
+      - close
+      Date:
+      - Mon, 28 May 2018 01:19:21 GMT
+      Server:
+      - Cowboy
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - jesci9r163ebktdb43f9fme88ue0jl10
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ''
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 04e88fffb4f4812c6b1375d0261db985.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - "-NKfJfAJGT4jGoXR-79rjqXhZqaeL4JGHHAh9jwF4Gk82DvRMI5K7w=="
+    body:
+      encoding: UTF-8
+      string: '{"volume_24h":"81.56000000","volume":"5.02000000","transition_time":"2018-05-28T07:50:00Z","status":"continuous","session":2470,"prev_close":"9821.00000000","last":"9757.00000000","current_time":"2018-05-28T01:19:21.577414Z","bid":"9721.00000000","ask":"9758.00000000"}'
+    http_version: 
+  recorded_at: Mon, 28 May 2018 01:19:21 GMT
+recorded_with: VCR 4.0.0

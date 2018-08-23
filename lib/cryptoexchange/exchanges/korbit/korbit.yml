@@ -1,0 +1,11 @@
+:pairs:
+  - :base: BTC
+    :target: KRW
+  - :base: ETH
+    :target: KRW
+  - :base: ETC
+    :target: KRW
+  - :base: BCH
+    :target: KRW
+  - :base: XRP
+    :target: KRW
